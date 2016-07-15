@@ -1,3 +1,4 @@
+# Adapted from https://gist.github.com/teechap/9c066a9ab054cc322877 by Travis Chapman
 '''
 Most heatmap tutorials I found online use pyplot.pcolormesh with random sets of
 data from Numpy; I just needed to plot x, y, z values stored in lists--without
