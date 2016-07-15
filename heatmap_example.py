@@ -37,6 +37,10 @@ print "Y:", y
 imageFile = cb.get_sample_data('./Contact Center.png')
 image = plt.imread(imageFile)
 
+# Resize the whole plot
+plt.figure(figsize=(15, 11), dpi=85)
+# Display the image, which will serve as our backgruond 
 plt.imshow(image, aspect='auto')
+# Red dots
 plt.plot(x, y, 'ro')
 plt.show()
